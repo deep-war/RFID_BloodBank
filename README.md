@@ -3,7 +3,7 @@
 **RFID For Blood Banks** is an application based on Service-oriented approach utilizing a combination of SOAP and RESTful Web Services for managing blood samples in Blood Banks.
 
 The demo video for the project can be found at
-**https://youtu.be/BJ4ErB_Wz2g**
+*https://youtu.be/BJ4ErB_Wz2g*
 
 ## User Stories
 
