@@ -39,3 +39,5 @@ Services Implemented :
 External APIS used :
 - [X] Bing Maps API : This service Invocation is done for retrieving a static map of the nearby blood bank/hospital locations
 - [X]	World Trading Data API : This service Invocation is done to retrieve real time stock prices for the top 5 medical firms. This also included an implementation using AJAX, to automatically retrieve real time data & update the grid view every 10 seconds.
+
+###### *Code will be provided upon request - Please contact deepthi.warrier@gmail.com for more info*
