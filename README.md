@@ -1,31 +1,41 @@
-## RFID For Blood Banks:
+# RFID For Blood Banks
 
-**The demo video for the project can be found at**
-https://youtu.be/BJ4ErB_Wz2g
+**RFID For Blood Banks** is an application based on Service-oriented approach utilizing a combination of SOAP and RESTful Web Services for managing blood samples in Blood Banks.
 
-**The development platform we have used are:**
-1) Visual Studio 2019
-2) IntelliJ IDEA 2019
+The demo video for the project can be found at
+**https://youtu.be/BJ4ErB_Wz2g**
 
-#### To run the project:
+## User Stories
 
-**Run the backend services:**
-For C# based REST and SOAP web services:
-1) Open BloodBankUsingRFID.sln in Visual Studio
-2) Click on IIS Express to start the services
+The following features are implemented:
+- [X] Login for Lab Technicians
+- [X] Inventory Tracking
+  - [X] Blood Bags Count
+  - [X] Add Blood Bags
+  - [X] Remove Blood Bags  
+- [X] Donor Information
+    - [X] Display Donor Information Based on RFID
+    - [X] Display Donor Information Based on Donor ID
+- [X] Register Donor
+- [X] Display Nearby Blood Banks using Bing Maps
+- [X] Display RealTime Stock price Values using AJAX and external APIs
+- [X] Analytics & Insights using Maps & Graphs
 
-**For Java based REST services:**
-1) Open	LocationMap	Project and open the file - LocationMapService.java in IntelliJ IDE
-2) Run Glassfish server
+The development platform used are:
+- [X] Visual Studio 2019
+- [X]	IntelliJ IDEA 2019
 
-**Once the backend is up and running, go to 'bloodbankui' to run the application.**
-1) Open BloodbankUI.sln in Visual Studio
-2) Click on 'Solution Explorer'
-3) Right click on Login.aspx and click on 'View in Browser'
+Programming Languages used:
+- [X] C# and Java to develop the Service Endpoints
+- [X]	ASP.NET to develop UI.
 
-**Once the Login page is up:**
-1) Enter the username: 
-2) Enter the password: 
-3) Click on Submit
+Version Control using BitBucket (Git)
 
-This should take the user to 'ViewBloodBankDetails.aspx'. All the buttons provided in the menu bar will help the user navigate to respective pages.
+Services Implemented :
+- [X] RESTful Webservices
+- [X]	SOAP Webservices
+- [X] JAVA REST Service
+
+External APIS used :
+- [X] Bing Maps API : This service Invocation is done for retrieving a static map of the nearby blood bank/hospital locations
+- [X]	World Trading Data API : This service Invocation is done to retrieve real time stock prices for the top 5 medical firms. This also included an implementation using AJAX, to automatically retrieve real time data & update the grid view every 10 seconds.
