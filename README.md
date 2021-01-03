@@ -21,23 +21,33 @@ The following features are implemented:
 - [X] Display RealTime Stock price Values using AJAX and external APIs
 - [X] Analytics & Insights using Maps & Graphs
 
-The development platform used are:
+##### The development platform used are:
+```sh
 - [X] Visual Studio 2019
 - [X]	IntelliJ IDEA 2019
+```
 
-Programming Languages used:
+##### Programming Languages used:
+```sh
 - [X] C# and Java to develop the Service Endpoints
 - [X]	ASP.NET to develop UI.
+```
 
+```sh
 Version Control using BitBucket (Git)
+```
 
-Services Implemented :
+##### Services Implemented :
+```sh
 - [X] RESTful Webservices
 - [X]	SOAP Webservices
 - [X] JAVA REST Service
+```
 
-External APIS used :
+##### External APIS used :
+```sh
 - [X] Bing Maps API : This service Invocation is done for retrieving a static map of the nearby blood bank/hospital locations
 - [X]	World Trading Data API : This service Invocation is done to retrieve real time stock prices for the top 5 medical firms. This also included an implementation using AJAX, to automatically retrieve real time data & update the grid view every 10 seconds.
+```
 
 ###### *Code will be provided upon request - Please contact deepthi.warrier@gmail.com for more info*
